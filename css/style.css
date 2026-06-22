@@ -692,255 +692,33 @@ color:#d4af37;
 opacity:.8;
 
 }
-/* ================= VIDEO ================= */
+.budaya-card iframe{
 
-.subjudul{
+width:400px;
 
-text-align:center;
-
-font-size:22px;
-
-margin:25px 20px 50px;
-
-font-style:italic;
-
-}
-
-
-.video-section{
-
-padding:0 50px 80px;
-
-}
-
-
-.video-card{
-
-display:flex;
-
-align-items:center;
-
-gap:40px;
-
-background:rgba(255,255,255,.1);
-
-backdrop-filter:blur(10px);
-
-padding:35px;
-
-border-radius:30px;
-
-box-shadow:0 10px 30px rgba(0,0,0,.35);
-
-}
-
-
-.video-card iframe{
-
-width:550px;
-
-height:320px;
+height:250px;
 
 border:none;
 
 border-radius:20px;
 
-}
-
-
-.video-text{
-
-flex:1;
-
-}
-
-
-.video-text h2{
-
-font-size:42px;
-
-color:#ffd54f;
-
-margin-bottom:25px;
-
-}
-
-
-.video-text p{
-
-font-size:19px;
-
-line-height:1.9;
-
-}
-
-
-.video-text blockquote{
-
-margin-top:25px;
-
-padding-left:20px;
-
-border-left:5px solid #d4af37;
-
-font-style:italic;
-
-font-size:22px;
-
-color:#ffd54f;
-
-}
-
-
-/* ================= RESPONSIVE ================= */
-
-@media(max-width:900px){
-
-.video-card{
-
-flex-direction:column;
-
-}
-
-
-.video-card iframe{
-
-width:100%;
-
-height:250px;
-
-}
-
-
-.video-text h2{
-
-font-size:30px;
-
-}
-
-
-.video-text p{
-
-font-size:17px;
-
-}
-
-}
-/* ================= VIDEO ================= */
-
-.video-card{
-
-display:flex;
-
-align-items:center;
-
-gap:40px;
-
-background:#f5f5f5;
-
-padding:30px;
-
-border-radius:30px;
-
-max-width:1300px;
-
-margin:40px auto;
-
-box-shadow:0 10px 25px rgba(0,0,0,.12);
-
-}
-
-.video-kiri{
-
-width:40%;
-
-}
-
-.video-kanan{
-
-width:60%;
-
-}
-
-.video-kiri iframe{
-
-width:100%;
-
-height:300px;
-
-border:none;
-
-border-radius:20px;
-
-}
-
-.video-kanan h2{
-
-font-size:42px;
-
-color:#5b3a29;
-
-margin-bottom:20px;
-
-}
-
-.video-kanan p{
-
-font-size:28px;
-
-line-height:1.8;
-
-color:#222;
-
-}
-
-.video-kanan blockquote{
-
-margin-top:25px;
-
-padding-left:20px;
-
-border-left:6px solid #c89b3c;
-
-font-style:italic;
-
-font-size:26px;
-
-color:#8b6b56;
+flex-shrink:0;
 
 }
 
 @media(max-width:900px){
 
-.video-card{
+.budaya-card{
 
 flex-direction:column;
 
 }
 
-.video-kiri,
-
-.video-kanan{
+.budaya-card iframe{
 
 width:100%;
 
-}
-
-.video-kiri iframe{
-
 height:250px;
-
-}
-
-.video-kanan h2{
-
-font-size:32px;
-
-}
-
-.video-kanan p{
-
-font-size:20px;
 
 }
 
