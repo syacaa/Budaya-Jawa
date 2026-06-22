@@ -692,3 +692,137 @@ color:#d4af37;
 opacity:.8;
 
 }
+/* ================= VIDEO ================= */
+
+.subjudul{
+
+text-align:center;
+
+font-size:22px;
+
+margin:25px 20px 50px;
+
+font-style:italic;
+
+}
+
+
+.video-section{
+
+padding:0 50px 80px;
+
+}
+
+
+.video-card{
+
+display:flex;
+
+align-items:center;
+
+gap:40px;
+
+background:rgba(255,255,255,.1);
+
+backdrop-filter:blur(10px);
+
+padding:35px;
+
+border-radius:30px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.35);
+
+}
+
+
+.video-card iframe{
+
+width:550px;
+
+height:320px;
+
+border:none;
+
+border-radius:20px;
+
+}
+
+
+.video-text{
+
+flex:1;
+
+}
+
+
+.video-text h2{
+
+font-size:42px;
+
+color:#ffd54f;
+
+margin-bottom:25px;
+
+}
+
+
+.video-text p{
+
+font-size:19px;
+
+line-height:1.9;
+
+}
+
+
+.video-text blockquote{
+
+margin-top:25px;
+
+padding-left:20px;
+
+border-left:5px solid #d4af37;
+
+font-style:italic;
+
+font-size:22px;
+
+color:#ffd54f;
+
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:900px){
+
+.video-card{
+
+flex-direction:column;
+
+}
+
+
+.video-card iframe{
+
+width:100%;
+
+height:250px;
+
+}
+
+
+.video-text h2{
+
+font-size:30px;
+
+}
+
+
+.video-text p{
+
+font-size:17px;
+
+}
+
+}
